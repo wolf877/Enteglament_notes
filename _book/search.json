@@ -10,13 +10,13 @@
     ]
   },
   {
-    "objectID": "index.html#referências-utilizdas",
-    "href": "index.html#referências-utilizdas",
+    "objectID": "index.html#referências-utilizadas",
+    "href": "index.html#referências-utilizadas",
     "title": "Notas sobre entrelaçamento e holografia",
-    "section": "1.1 Referências utilizdas",
-    "text": "1.1 Referências utilizdas\n [1]  [2]  [3]  [4]  [5]  [6]  [7]  [8]\n\n\n\n\n\n\n[1] T. Nishioka, S. Ryu, e T. Takayanagi, Holographic Entanglement Entropy: An Overview, J. Phys. A 42, 504008 (2009).\n\n\n[2] M. Van Raamsdonk, Building up spacetime with quantum entanglement, Gen. Rel. Grav. 42, 2323 (2010).\n\n\n[3] M. Rangamani e T. Takayanagi, Holographic Entanglement Entropy, V. 931 (Springer, 2017).\n\n\n[4] D. Harlow, Jerusalem Lectures on Black Holes and Quantum Information, Rev. Mod. Phys. 88, 015002 (2016).\n\n\n[5] M. Headrick, Lectures on entanglement entropy in field theory and holography, (2019).\n\n\n[6] E. Witten, A Mini-Introduction To Information Theory, Riv. Nuovo Cim. 43, 187 (2020).\n\n\n[7] S. Ryu e T. Takayanagi, Holographic derivation of entanglement entropy from AdS/CFT, Phys. Rev. Lett. 96, 181602 (2006).\n\n\n[8] S. Ryu e T. Takayanagi, Aspects of Holographic Entanglement Entropy, JHEP 08, 045 (2006).",
+    "section": "1.1 Referências utilizadas",
+    "text": "1.1 Referências utilizadas\n [1]  [2]  [3]  [4]  [5]  [6]  [7]  [8]\n\n\n\n\n\n\n[1] T. Nishioka, S. Ryu, e T. Takayanagi, Holographic Entanglement Entropy: An Overview, J. Phys. A 42, 504008 (2009).\n\n\n[2] M. Van Raamsdonk, Building up spacetime with quantum entanglement, Gen. Rel. Grav. 42, 2323 (2010).\n\n\n[3] M. Rangamani e T. Takayanagi, Holographic Entanglement Entropy, V. 931 (Springer, 2017).\n\n\n[4] D. Harlow, Jerusalem Lectures on Black Holes and Quantum Information, Rev. Mod. Phys. 88, 015002 (2016).\n\n\n[5] M. Headrick, Lectures on entanglement entropy in field theory and holography, (2019).\n\n\n[6] E. Witten, A Mini-Introduction To Information Theory, Riv. Nuovo Cim. 43, 187 (2020).\n\n\n[7] S. Ryu e T. Takayanagi, Holographic derivation of entanglement entropy from AdS/CFT, Phys. Rev. Lett. 96, 181602 (2006).\n\n\n[8] S. Ryu e T. Takayanagi, Aspects of Holographic Entanglement Entropy, JHEP 08, 045 (2006).",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Visão Geral</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução</span>"
     ]
   },
   {
@@ -67,16 +67,6 @@
     "text": "[1] T.\nNishioka, S. Ryu, and T. Takayanagi, Holographic\nEntanglement Entropy: An Overview, J. Phys. A\n42, 504008 (2009).\n\n\n[2] M.\nVan Raamsdonk, Building up spacetime with quantum\nentanglement, Gen. Rel. Grav. 42, 2323\n(2010).\n\n\n[3] M.\nRangamani and T. Takayanagi, Holographic\nEntanglement Entropy, Vol. 931 (Springer, 2017).\n\n\n[4] M.\nHeadrick, Lectures on entanglement entropy in field theory and\nholography, (2019).\n\n\n[5] S.\nRyu and T. Takayanagi, Holographic derivation of entanglement entropy from\nAdS/CFT, Phys. Rev. Lett. 96, 181602\n(2006).\n\n\n[6] S.\nRyu and T. Takayanagi, Aspects of Holographic Entanglement Entropy,\nJHEP 08, 045 (2006).\n\n\n[7] D.\nHarlow, Jerusalem Lectures on Black Holes and Quantum\nInformation, Rev. Mod. Phys. 88, 015002\n(2016).\n\n\n[8] E.\nWitten, A\nMini-Introduction To Information Theory, Riv. Nuovo Cim.\n43, 187 (2020).",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bibliografia</span>"
-    ]
-  },
-  {
-    "objectID": "index.html#referências-utilizadas",
-    "href": "index.html#referências-utilizadas",
-    "title": "Notas sobre entrelaçamento e holografia",
-    "section": "1.1 Referências utilizadas",
-    "text": "1.1 Referências utilizadas\n [1]  [2]  [3]  [4]  [5]  [6]  [7]  [8]\n\n\n\n\n\n\n[1] T. Nishioka, S. Ryu, e T. Takayanagi, Holographic Entanglement Entropy: An Overview, J. Phys. A 42, 504008 (2009).\n\n\n[2] M. Van Raamsdonk, Building up spacetime with quantum entanglement, Gen. Rel. Grav. 42, 2323 (2010).\n\n\n[3] M. Rangamani e T. Takayanagi, Holographic Entanglement Entropy, V. 931 (Springer, 2017).\n\n\n[4] D. Harlow, Jerusalem Lectures on Black Holes and Quantum Information, Rev. Mod. Phys. 88, 015002 (2016).\n\n\n[5] M. Headrick, Lectures on entanglement entropy in field theory and holography, (2019).\n\n\n[6] E. Witten, A Mini-Introduction To Information Theory, Riv. Nuovo Cim. 43, 187 (2020).\n\n\n[7] S. Ryu e T. Takayanagi, Holographic derivation of entanglement entropy from AdS/CFT, Phys. Rev. Lett. 96, 181602 (2006).\n\n\n[8] S. Ryu e T. Takayanagi, Aspects of Holographic Entanglement Entropy, JHEP 08, 045 (2006).",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução</span>"
     ]
   }
 ]
