@@ -1,0 +1,58 @@
+#---
+# title: "Quarto HTML Basics"
+# author: "Norah Jones"
+# date: today
+# toc: true
+# format:
+#   html:
+#     theme: [cosmo, custom.scss] #flatly
+#     #number-sections: true
+#     html-math-method: katex
+#     code-tools: true
+#     self-contained: true
+#     smooth-scroll: true
+#     embed-resources: true
+project:
+  type: book
+lang: pt-BR
+
+book:
+  title: "Notas sobre entrelaçamento e holografia"
+  downloads: [pdf]
+  
+  chapters:
+    - index.qmd
+    - body/chapter1.qmd
+    - body/chapter2.qmd
+    - body/chapter3.qmd
+    - body/ref.qmd
+
+bibliography: mybib.bib
+csl: american-physics-society.csl
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    html-math-method: katex
+    toc: true            # Cria o sumário lateral direito para a página atual
+    code-tools: true     # Permite visualizar o código-fonte nas reuniões
+    smooth-scroll: true
+    include-in-header:
+      text: '<meta name="robots" content="noindex, nofollow">'
+  pdf:
+    documentclass: article
+    top-level-division: section
+
+    # citation-method: natbib 
+    # biblio-style: unsrt  
+    # natbiboptions: "numbers,square,sort&compress"
+
+    papersize: a4
+    geometry:
+      - top=20mm
+      - bottom=20mm
+      - left=25mm
+      - right=25mm
+    number-sections: true
+    # keep-tex: true
+execute:
+  warning: false

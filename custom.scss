@@ -1,0 +1,8 @@
+/*-- scss:defaults --*/
+
+// 1. Força a fonte serifada no corpo e nos títulos
+$font-family-base: "Georgia", serif; 
+$headings-font-family: "Georgia", serif; 
+
+// 2. Reduz o espaçamento entre linhas (O padrão web é ~1.5)
+$line-height-base: 1.3;

@@ -1,0 +1,12 @@
+{
+  "hash": "ff6d926650fdcfccd213c651772cd611",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "# Capitulo 1\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, \n\n## Subseção do capitulo 1\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, \n\n::: {#cell-fig-emaranhamento-bulk .cell execution_count=1}\n\n::: {.cell-output .cell-output-display}\n![Representação esquemática do *bulk* (AdS) com contornos vazados, dividindo as regiões $A$ e $B$ com a superfície homóloga mínima $\\tilde{A}$.](chapter1_files/figure-html/fig-emaranhamento-bulk-output-1.png){#fig-emaranhamento-bulk width=662 height=662 fig-align='center'}\n:::\n:::\n\n\n",
+    "supporting": [
+      "chapter1_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

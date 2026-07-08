@@ -1,0 +1,11 @@
+::: {.callout-note appearance="simple" title="Documento Vivo"}
+Este é um arquivo de notas de estudo em andamento sobre entrelaçamento e holografia. O conteúdo está sujeito a revisões, correções de sinais e refinamentos conceituais à medida que as discussões avançam.
+:::
+
+# Introdução
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, 
+
+## Referências utilizadas
+
+[@Nishioka:2009un] [@VanRaamsdonk:2010pw] [@Rangamani:2016dms] [@Harlow:2014yka] [@Headrick:2019eth] [@Witten:2018zva] [@Ryu:2006bv] [@Ryu:2006ef]
