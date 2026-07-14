@@ -52,8 +52,7 @@ $$\langle \Psi |\mathcal{O}|\Psi \rangle = \langle \Psi|\mathcal{O}_A \otimes \m
 
 ### Traço parcial e Matriz densidade reduzida
 
-
-teste @eq-def_ensemble (@eq-def_ensemble)
+Considere um estado escrito como 
 
 Para encontrar a solução do campo, partimos da equação de Maxwell no *bulk*:
 
