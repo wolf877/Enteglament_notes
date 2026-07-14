@@ -32,11 +32,11 @@
   {
     "objectID": "body/chapter2.html",
     "href": "body/chapter2.html",
-    "title": "3  Capitulo 2",
+    "title": "3  Entrelaçamento na Mecanica Quantica",
     "section": "",
-    "text": "3.1 Subseção do capitulo 2\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,",
+    "text": "3.1 Ensemble de Estados Quanticos\nSeja o sistema composto por A e B, façamos \n\\mathcal{H} = \\mathcal{H}_A \\otimes \\mathcal{H}_B\nFaçamos a pergunta:\nDado um estado |\\Psi\\rangle\\in \\mathcal{H}, qual é o estado do subsistema A?\nDefinimos o valor esperado de algum operador \\mathcal{O} como a media dos valores esperados do estados individuais \\langle \\mathcal{O} \\rangle_{\\text{ensemble}} = \\sum_i p_i \\langle\\psi_i | \\mathcal{O}|\\psi_i \\rangle \\tag{3.1}\nAqui p_i é uma probabilidade relacionada a uma incerteza de qual estado o sistema esta.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Capitulo 2</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Entrelaçamento na Mecanica Quantica</span>"
     ]
   },
   {
@@ -67,6 +67,16 @@
     "text": "[1] T.\nNishioka, S. Ryu, and T. Takayanagi, Holographic\nEntanglement Entropy: An Overview, J. Phys. A\n42, 504008 (2009).\n\n\n[2] M.\nVan Raamsdonk, Building up spacetime with quantum\nentanglement, Gen. Rel. Grav. 42, 2323\n(2010).\n\n\n[3] M.\nRangamani and T. Takayanagi, Holographic\nEntanglement Entropy, Vol. 931 (Springer, 2017).\n\n\n[4] M.\nHeadrick, Lectures on entanglement entropy in field theory and\nholography, (2019).\n\n\n[5] S.\nRyu and T. Takayanagi, Holographic derivation of entanglement entropy from\nAdS/CFT, Phys. Rev. Lett. 96, 181602\n(2006).\n\n\n[6] S.\nRyu and T. Takayanagi, Aspects of Holographic Entanglement Entropy,\nJHEP 08, 045 (2006).\n\n\n[7] D.\nHarlow, Jerusalem Lectures on Black Holes and Quantum\nInformation, Rev. Mod. Phys. 88, 015002\n(2016).\n\n\n[8] E.\nWitten, A\nMini-Introduction To Information Theory, Riv. Nuovo Cim.\n43, 187 (2020).",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bibliografia</span>"
+    ]
+  },
+  {
+    "objectID": "body/chapter2.html#ensemble-de-estados-quanticos",
+    "href": "body/chapter2.html#ensemble-de-estados-quanticos",
+    "title": "3  Entrelaçamento na Mecanica Quantica",
+    "section": "",
+    "text": "Ensemble ou Estado de Mistura: uma coleção de estados ortogonais (base) e suas probabilidades assoiadas \\left\\{ |\\psi_i\\rangle, p_i\\right\\}\nEstado Puro: Um unico vetor no espaço de Hilbert.\n\n\n\n\n3.1.1 Matriz Densidade\nDado um ensemble podemos sempre definir um operador densidade \n\\rho = \\sum_i p_i |\\psi_i\\rangle \\langle \\psi_i |\n\\tag{3.2}\nPossuindo as seguintes propriedades:\n\nHermitiano (\\rho^{\\dagger}=\\rho)\nTraço unitario (Tr(\\rho) = 1)\nAutovalores não negativos (p_i \\ge 0), que formam uma distribuição estatistica.\n\nClaro que se tivessemos um estado puro a Equação 3.2 se resumiria a \\rho = |\\psi\\rangle \\langle \\psi |\nÉ simples ver que o traço é 1, além disso \\rho^2 = \\rho\\quad\\text{and}\\quad Tr(\\rho^2)=1\nVoltando a nossa pergunta, dado um |\\Psi\\rangle do sistema completo podemos sempre encontrar um ensemble para o subsistema A, definindo o operador estendido \\mathcal{O} = \\mathcal{O}_A \\otimes \\mathbb{I}_B então \\langle \\Psi |\\mathcal{O}|\\Psi \\rangle = \\langle \\Psi|\\mathcal{O}_A \\otimes \\mathbb{I}_B |\\Psi \\rangle = \\sum_i p_i \\langle \\psi_i| \\mathcal{O}_A | \\psi_i \\rangle\n\n\n3.1.2 Traço parcial e Matriz densidade reduzida\nteste Equação 3.1 (Equação 3.1)\nPara encontrar a solução do campo, partimos da equação de Maxwell no bulk:\n\n\n\\begin{aligned}\n\\nabla_\\mu F^{\\mu\\nu} &= 0 \\\\\n\\partial_r (r^2 \\partial_r A_t) &= 0\n\\end{aligned}\n\n\n\n\n\\begin{aligned}\n\\nabla_\\mu F^{\\mu\\nu} &= 0 \\\\\n\\partial_\\mu (\\sqrt{-g} F^{\\mu\\nu}) &= 0 \\\\\n\\partial_r (\\sqrt{-g} F^{rt}) + \\partial_\\theta (\\sqrt{-g} F^{\\theta t}) &= 0 \\\\\n\\partial_r \\left( r^2 \\sin\\theta \\left( -f(r)^{-1} \\right) \\partial_r A_t \\right) &= 0 \\\\\n\\partial_r (r^2 \\partial_r A_t) &= 0\n\\end{aligned}",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Entrelaçamento na Mecanica Quantica</span>"
     ]
   }
 ]

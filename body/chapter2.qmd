@@ -1,7 +1,93 @@
-# Capitulo 2
+# Entrelaçamento na Mecanica Quantica
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, 
+Seja o sistema composto por $A$ e $B$, façamos 
+$$
+\mathcal{H} = \mathcal{H}_A \otimes \mathcal{H}_B
+$$
 
-## Subseção do capitulo 2
+Façamos a pergunta: 
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, 
+_Dado um estado $|\Psi\rangle\in \mathcal{H}$, qual é o estado do subsistema $A$? _
+
+
+## Ensemble de Estados Quanticos
+
+- Ensemble ou Estado de Mistura: uma coleção de estados ortogonais (_base_) e suas probabilidades assoiadas
+$$\left\{ |\psi_i\rangle, p_i\right\}$$
+
+- Estado Puro: Um unico vetor no espaço de Hilbert.
+
+Definimos o valor esperado de algum operador $\mathcal{O}$ como a media dos valores esperados do estados individuais 
+$$\langle \mathcal{O} \rangle_{\text{ensemble}} = \sum_i p_i \langle\psi_i | \mathcal{O}|\psi_i \rangle$${#eq-def_ensemble}
+
+Aqui $p_i$ é uma probabilidade relacionada a uma incerteza de qual estado o sistema esta.
+
+
+### Matriz Densidade
+
+Dado um ensemble podemos sempre definir um operador densidade 
+$$
+\rho = \sum_i p_i |\psi_i\rangle \langle \psi_i |
+$${#eq-density_operator}
+
+Possuindo as seguintes propriedades:
+
+- Hermitiano ($\rho^{\dagger}=\rho$)
+
+- Traço unitario  ($Tr(\rho) = 1$)
+
+- Autovalores não negativos ($p_i \ge 0$), que formam uma distribuição estatistica.
+
+Claro que se tivessemos um estado puro a @eq-density_operator se resumiria a
+$$\rho = |\psi\rangle \langle \psi |$$
+
+É simples ver que o traço é 1, além disso 
+$$\rho^2 = \rho\quad\text{and}\quad Tr(\rho^2)=1$$
+
+
+
+
+Voltando a nossa pergunta, dado um $|\Psi\rangle$ do sistema completo  podemos sempre encontrar um ensemble para o subsistema $A$, definindo o operador estendido $\mathcal{O} = \mathcal{O}_A \otimes \mathbb{I}_B$ então
+$$\langle \Psi |\mathcal{O}|\Psi \rangle = \langle \Psi|\mathcal{O}_A \otimes \mathbb{I}_B |\Psi \rangle = \sum_i p_i \langle \psi_i| \mathcal{O}_A | \psi_i \rangle$$
+
+### Traço parcial e Matriz densidade reduzida
+
+
+teste @eq-def_ensemble (@eq-def_ensemble)
+
+Para encontrar a solução do campo, partimos da equação de Maxwell no *bulk*:
+
+::: {.content-visible when-format="html"}
+::: {#conta-curta style="cursor: pointer;" onclick="this.style.display='none'; document.getElementById('conta-longa').style.display='block';"}
+$$
+\begin{aligned}
+\nabla_\mu F^{\mu\nu} &= 0 \\
+\partial_r (r^2 \partial_r A_t) &= 0 
+\end{aligned}
+$$
+:::
+
+::: {#conta-longa style="display: none; cursor: pointer;" onclick="this.style.display='none'; document.getElementById('conta-curta').style.display='block';"}
+$$
+\begin{aligned}
+\nabla_\mu F^{\mu\nu} &= 0 \\
+\partial_\mu (\sqrt{-g} F^{\mu\nu}) &= 0 \\
+\partial_r (\sqrt{-g} F^{rt}) + \partial_\theta (\sqrt{-g} F^{\theta t}) &= 0 \\
+\partial_r \left( r^2 \sin\theta \left( -f(r)^{-1} \right) \partial_r A_t \right) &= 0 \\
+\partial_r (r^2 \partial_r A_t) &= 0
+\end{aligned}
+$$
+:::
+:::
+
+::: {.content-visible when-format="pdf"}
+$$
+\begin{aligned}
+\nabla_\mu F^{\mu\nu} &= 0 \\
+\partial_\mu (\sqrt{-g} F^{\mu\nu}) &= 0 \\
+\partial_r (\sqrt{-g} F^{rt}) + \partial_\theta (\sqrt{-g} F^{\theta t}) &= 0 \\
+\partial_r \left( r^2 \sin\theta \left( -f(r)^{-1} \right) \partial_r A_t \right) &= 0 \\
+\partial_r (r^2 \partial_r A_t) &= 0
+\end{aligned}
+$$
+:::

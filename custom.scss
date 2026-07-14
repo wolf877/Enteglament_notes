@@ -6,3 +6,7 @@ $headings-font-family: "Georgia", serif;
 
 // 2. Reduz o espaçamento entre linhas (O padrão web é ~1.5)
 $line-height-base: 1.3;
+
+h1, .h1 {
+  margin-bottom: 1.8rem !important; /* Aumente ou diminua este valor como preferir */
+}
